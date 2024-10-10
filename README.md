@@ -1,10 +1,27 @@
-Questo GitHub contiene il materiale in riferimento al progetto relativo al corso di Fondamenti di Data Science & Machine Learning.
+Questo repository GitHub contiene il materiale relativo al progetto realizzato nel corso di Fondamenti di Data Science & Machine Learning. Il progetto si concentra sulla generazione di immagini tramite un modello di linguaggio di grandi dimensioni (LLM), esplorando sia l'aspetto etico che quello non etico della generazione di contenuti visivi.
 
-1) Il file Generative_(Unethical).ipynb contiene il codice implementativo del progetto.
-E' stato implementato un LLM che offre la possibilità di generare immagini: per le immagini etiche è stato implementato un controllo sul prompt, garantendo che non vengano scritte "parole bannate", mentre
-per le immagini non etiche sono stati implementati dai prompt automatici per la generazione di immagini.
+File:
+Generative_(Unethical).ipynb:
 
-2) Il file Paper_ProgettoFDSML.pdf fa riferimento al paper riassuntivo del lavoro svolto, sia sull'implementazione dell'LLM sia sul bypass dei filtri imposti dall'LLM per la generazione di immagini non etiche.
-3) Il file datasetEthical&NonEtichal.pdf fa riferimento alle immagini generate (sia etiche e non etiche) dall'LLM implementato con relativo prompt
-4) Il file Prompt.pdf contiene le immagini date in output da CHATGpt con relativo prompt maligno (cioè il prompt che non è riuscito a bypassare i filtri imposti dall'LLM) che il prompt "benigno" cioè il prompt che è 
-riuscito a bypassare i filtri imposti da CHATGpt
+Questo file Jupyter Notebook contiene il codice implementativo del progetto.
+È stato sviluppato un LLM capace di generare immagini in risposta a input testuali.
+Per garantire la creazione di immagini etiche, è stato implementato un filtro sul prompt, che verifica l'assenza di "parole bannate".
+Per quanto riguarda le immagini non etiche, sono stati utilizzati prompt automatici progettati per aggirare i filtri e generare contenuti inappropriati.
+
+
+Paper_ProgettoFDSML.pdf:
+
+Questo documento è un paper riassuntivo del lavoro svolto.
+Presenta un’analisi dell'implementazione dell'LLM e descrive le metodologie utilizzate per bypassare i filtri imposti per la generazione di immagini non etiche.
+Include anche discussioni sui rischi e le implicazioni etiche legate a tale tecnologia.
+
+
+datasetEthical&NonEthical.pdf:
+Questo file presenta un campione delle immagini generate, suddivise in etiche e non etiche, insieme ai relativi prompt utilizzati per la loro generazione.
+Fornisce un'illustrazione pratica dei risultati ottenuti dall'LLM e delle differenze tra i due tipi di contenuti.
+
+
+Prompt.pdf:
+
+In questo documento sono riportate le immagini prodotte da ChatGPT in risposta a prompt maligni (cioè quelli che non hanno superato i filtri dell'LLM) e prompt benigni (quelli che sono riusciti a bypassare i filtri).
+Questo confronto offre una visione chiara su come i filtri riescano a gestire e differenziare tra input etici e non etici.
